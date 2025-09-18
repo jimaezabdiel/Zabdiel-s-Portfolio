@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zabdiel's Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand fw-bold logo" href="#">Zabdiel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+          aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section id="home" class="py-5 text-center">
+    <div class="container">
+      <div class="d-flex flex-column align-items-center">
+        <div class="square-frame mb-3">
+          <img src="images/mae.jpeg" alt="profile" class="square-img">
+          <div class="pink-lights" aria-hidden="true"></div>
+        </div>
+        <h3 class="text-dark">Hello, I'm</h3>
+        <h1 class="fw-bold name-title">Jimae Zabdiel Austria</h1>
+        <p class="mb-4">20-year-old aspiring developer/software engineer, passionate about learning new technologies and building impactful solutions.</p>
+        <a href="#about" class="btn get-started">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold">About Me</h2>
+      <div class="circle-small mx-auto my-3">
+        <img src="images/jimae.jpeg" alt="about" class="circle-img">
+      </div>
+      <p class="fs-6 text-muted"> I'm currently a third-year BSIT Service Management student at Batangas State University – The National Engineering University, Lipa Campus. Enthusiastic about web development and eager to keep learning, I aim to apply my skills in building practical and impactful projects. Outside academics, I continue to grow my talents and explore creative pursuits.</p>
+
+      <h2 class="mb-3">Talents / Hobbies</h2>
+      <div class="row g-3 justify-content-center">
+        <!-- Singing -->
+        <div class="col-6 col-sm-4 col-md-3">
+          <div class="flip-card small-flip">
+            <div class="flip-inner">
+              <div class="flip-front"><img src="images/singing.jpg" alt="singing"></div>
+              <div class="flip-back">
+                <h5>Singing</h5>
+                <p>Since childhood, singing has been my passion, expressed through performances at events and in church.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Dancing -->
+        <div class="col-6 col-sm-4 col-md-3">
+          <div class="flip-card small-flip">
+            <div class="flip-inner">
+              <div class="flip-front"><img src="images/dancing.jpeg" alt="dancing"></div>
+              <div class="flip-back">
+                <h5>Dancing</h5>
+                <p>Dancing, whether in groups or at home, has always been one of my favorite hobbies.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Painting -->
+        <div class="col-6 col-sm-4 col-md-3">
+          <div class="flip-card small-flip">
+            <div class="flip-inner">
+              <div class="flip-front"><img src="images/painting.jpg" alt="painting"></div>
+              <div class="flip-back">
+                <h5>Painting</h5>
+                <p>I enjoy painting anime-inspired sceneries and working on creative craft projects.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Cooking -->
+        <div class="col-6 col-sm-4 col-md-3">
+          <div class="flip-card small-flip">
+            <div class="flip-inner">
+              <div class="flip-front"><img src="images/cooking.jpg" alt="cooking"></div>
+              <div class="flip-back">
+                <h5>Cooking</h5>
+                <p>I enjoy exploring new recipes and cooking meals for family and friends.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-5 text-center">
+    <div class="container">
+      <h2 class="fw-bold">Skills</h2>
+      <p class="mb-4">Technologies and Tools I frequently use:</p>
+      <div class="row gx-4 gy-3 justify-content-center">
+        <div class="col-4 col-sm-3 col-md-2"><i class="bi bi-filetype-html skill-icon"></i><div>HTML</div></div>
+        <div class="col-4 col-sm-3 col-md-2"><i class="bi bi-filetype-css skill-icon"></i><div>CSS</div></div>
+        <div class="col-4 col-sm-3 col-md-2"><i class="bi bi-database skill-icon"></i><div>MySQL</div></div>
+        <div class="col-4 col-sm-3 col-md-2"><i class="bi bi-github skill-icon"></i><div>GitHub</div></div>
+        <div class="col-4 col-sm-3 col-md-2"><i class="bi bi-palette skill-icon"></i><div>Figma / Canva</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold">Activities/Group Projects</h2>
+
+      <!-- Activity 1 -->
+      <div class="row align-items-center mb-4">
+        <div class="col-md-6">
+          <div id="act1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active"><img src="images/Activity1.jpg" class="d-block w-100" alt="act1-1"></div>
+              <div class="carousel-item"><img src="images/Activity2.jpg" class="d-block w-100" alt="act1-2"></div>
+            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#act1" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h5>Activity 1 — Text Formatting</h5>
+          <p>Demonstrates HTML text formatting: headings, bold, italic, paragraphs, and inline styles.</p>
+          <h5>Activity 2 — Tables & Rows</h5> 
+          <p>Shows how HTML tables are structured with rows and cells to present tabular data.</p>
+        </div>
+      </div>
+
+      <!-- Activity 2 -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6 order-md-2">
+          <div id="act2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active"><img src="images/login.jpg" class="d-block w-100" alt="login"></div>
+              <div class="carousel-item"><img src="images/Registration.jpg" class="d-block w-100" alt="register"></div>
+              <div class="carousel-item"><img src="images/home.jpg" class="d-block w-100" alt="home"></div>
+              <div class="carousel-item"><img src="images/faqs.jpg" class="d-block w-100" alt="faqs"></div>
+              <div class="carousel-item"><img src="images/books.jpg" class="d-block w-100" alt="books"></div>
+              <div class="carousel-item"><img src="images/about.jpg" class="d-block w-100" alt="about"></div>
+            </div>
+            <button class="carousel-control-next" type="button" data-bs-target="#act2" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-1">
+          <h5>Login, Registration & Bootstrap Webpage</h5>
+          <p>Authentication pages and a Bootstrap demo site showcasing responsive components.</p>
+        </div>
+      </div>
+
+      <!-- Other Projects -->
+      <h3 class="text-center mb-3 fw-bold">Other Projects</h3>
+      <div class="row g-4">
+        <div class="col-md-3 col-sm-6"><div class="card project-card"><h6>TutorLinkUp (2025)</h6><p>Peer-to-peer tutor finder (PHP + DB)</p></div></div>
+        <div class="col-md-3 col-sm-6"><div class="card project-card"><h6>Waste Management Tracker (2024)</h6><p>PHP project aligned with UN SDG 12</p></div></div>
+        <div class="col-md-3 col-sm-6"><div class="card project-card"><h6>Hotel Reservation System (2024)</h6><p>Java-based booking & admin system</p></div></div>
+        <div class="col-md-3 col-sm-6"><div class="card project-card"><h6>ChemLab Borrowing System (2024)</h6><p>C++ console app for lab equipment borrowing</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5 text-center">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="circle-small mx-auto my-3"><img src="images/id pic.jpeg" alt="contact" class="circle-img"></div>
+      <p><i class="bi bi-envelope-fill me-2"></i><a href="mailto:austriajimaezabdiel@gmail.com">austriajimaezabdiel@gmail.com</a></p>
+      <p><i class="bi bi-telephone-fill me-2"></i><a href="tel:+639709353043">+63 970 935 3043</a></p>
+      <p><i class="bi bi-geo-alt-fill"></i> San Jose, Alitagtag, Batangas</p>
+      <div class="mt-3">
+        <a href="https://www.facebook.com/jimaezabdiel.austria" target="_blank" class="me-3"><i class="bi bi-facebook fs-3"></i></a>
+        <a href="https://www.instagram.com/zabdiellll/" target="_blank" class="me-3"><i class="bi bi-instagram fs-3"></i></a>
+        <a href="https://github.com/jimaezabdiel" target="_blank" class="me-3"><i class="bi bi-github fs-3"></i></a>
+        <a href="https://www.linkedin.com/in/austria-jimae-zabdiel-87658833b/" target="_blank"><i class="bi bi-linkedin fs-3"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-3 text-center">
+    <div class="container">
+      <small>© 2025 Zabdiel's Portfolio. All Rights Reserved.</small>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
