@@ -1,4 +1,3 @@
-// Smooth scroll + collapse mobile nav after click
 document.querySelectorAll('.nav-link').forEach(link => {
   link.addEventListener('click', function (e) {
     e.preventDefault();
@@ -7,7 +6,6 @@ document.querySelectorAll('.nav-link').forEach(link => {
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 
-    // Collapse mobile nav
     const bsCollapse = document.querySelector('.navbar-collapse');
     if (bsCollapse && bsCollapse.classList.contains('show')) {
       const collapse = new bootstrap.Collapse(bsCollapse);
@@ -16,7 +14,6 @@ document.querySelectorAll('.nav-link').forEach(link => {
   });
 });
 
-// Highlight active nav link on scroll
 function setActiveOnScroll() {
   const fromTop = window.scrollY + 120;
   document.querySelectorAll('section[id]').forEach(section => {
